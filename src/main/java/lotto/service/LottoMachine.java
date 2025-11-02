@@ -20,7 +20,7 @@ public class LottoMachine {
     }
 
     private Lotto createLotto() {
-        List<Integer> numbers = Randoms.pickUniqueNumbersInRange(1,45,6);
+        List<Integer> numbers = Randoms.pickUniqueNumbersInRange(1, 45, 6);
         return new Lotto(numbers);
     }
 }
